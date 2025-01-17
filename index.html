@@ -17,11 +17,19 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script type="module" crossorigin src="/Test/assets/index-Bn7Aee1z.js"></script>
+    <script type="module" crossorigin src="/Test/assets/index-BBBE_Gfx.js"></script>
     <link rel="stylesheet" crossorigin href="/Test/assets/index-BiZRnn4K.css">
   </head>
   <body>
     <div id="root"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      if (
+        window.location.pathname !== "/Test/" &&
+        !window.location.pathname.startsWith("/Test/")
+      ) {
+        window.location.replace("/ITest/");
+      }
+    </script>
   </body>
 </html>
